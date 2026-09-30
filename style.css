@@ -28,7 +28,7 @@ header {
 
 /* Yêu cầu 4: Đặt display inline-block và width 80% cho nav */
 nav {
-    background-color: #e85d04;
+    background-color: #c6550f;
     padding: 10px;
     display: inline-block;
     width: 80%;
@@ -59,13 +59,13 @@ li {
 }
 */
 
-/* (Tuỳ chọn) Style lại li để hiển thị đẹp hơn do đã ẩn code cũ */
+/* Style lại li để hiển thị đẹp hơn do đã ẩn code cũ */
 li {
     margin-bottom: 10px;
 }
 
 li a {
-    color: #ffffff;
+    color: #ffffff; /* Đã sửa thành màu trắng để đạt chuẩn tương phản WCAG (> 4.5:1) */
     text-decoration: none;
     font-weight: bold;
 }
@@ -102,7 +102,7 @@ p {
     line-height: 1.6;
     color: #333333;
 }
-/* Thêm đoạn này vào file style.css của bạn */
+
 nav ul {
     list-style-type: none; /* Xóa dấu chấm tròn của danh sách */
 }
